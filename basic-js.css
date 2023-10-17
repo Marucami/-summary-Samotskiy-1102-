@@ -8,14 +8,6 @@
     src: url("/fonts/SFMono-Regular.otf");
 }
 
-html {
-    font-size: 18px;
-    font-weight: normal;
-    line-height: 1.7;
-    color: #212529;
-    font-family: "Roboto";
-}
-
 header {
     font-size: 0.8em;
     font-family: "Roboto";
