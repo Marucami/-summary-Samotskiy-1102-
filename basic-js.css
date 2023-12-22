@@ -27,24 +27,35 @@ body {
     margin-bottom: 16px;
 }
 
+.Chetography {
+    display: block;
+}
+
 .JSmindmap {
     padding: 150px;
     display: block;
 }
 
-.img-mindmap {
-    border: 2px rgba(137,251,252,1) solid;
+section {
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap:wrap;
+    column-count: 2;
+    background-color: white; 
+    padding: 10px; 
+    margin-top: 5px; 
+    border: 2px rgba(137,251,252,1) solid; 
 }
 
-.img-mindmap:hover {
+section:hover {
     box-shadow: 0px -5px 10px 0px grey;
 }
-
 
 header img {
     width: 50px;
     height: 50px;
 }
+
 
 a {
     text-decoration: none;
